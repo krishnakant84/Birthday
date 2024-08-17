@@ -40,7 +40,7 @@
     border-right: 160px solid transparent;
     border-left: 180px solid transparent;
     transform-origin: top;
-    transition: all 0.5s ease-in-out 0.7s;
+    transition: all 0.2s ease-in-out 0.7s;
   }
   .envelope-wrapper > .envelope::after {
     content: "";
@@ -52,7 +52,7 @@
     border-right: 170px solid var(--envelope-cover);
     border-bottom: 200px solid var(--envelope-cover);
     border-left: 170px solid var(--envelope-cover);
-    transition: all 0.4ms;
+    transition: all 1s;
   }
   .envelope > .letter {
     position: absolute;
@@ -62,7 +62,7 @@
     height: 85%;
     background: var(--primary);
     text-align: center;
-    transition: all 3s ease-in-out;
+    transition: all 1s ease-in-out;
     box-shadow: 0 0 5px var(--shadow-color);
     padding: 20px 10px;
   }
